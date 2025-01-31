@@ -72,17 +72,30 @@ body {
 
             th:first-child,
             td:first-child {
-                width: 70%;
+                width: 70%;  // Paper title & abstract column
             }
 
             th:nth-child(2),
             td:nth-child(2) {
-                width: 15%;
+                width: 15%;  // Date column
             }
 
             th:nth-child(3),
             td:nth-child(3) {
-                width: 15%;
+                width: 15%;  // Comment column
+            }
+        }
+
+        // Paper details table (2 columns)
+        &.paper-details {
+            th:first-child,
+            td:first-child {
+                width: 30%;  // Field column
+            }
+
+            th:nth-child(2),
+            td:nth-child(2) {
+                width: 70%;  // Value column
             }
         }
     }
