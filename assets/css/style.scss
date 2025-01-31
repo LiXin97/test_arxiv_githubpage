@@ -45,10 +45,27 @@ table {
   width: 100%;
   display: table;
   margin-bottom: 20px;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+th, td {
+  padding: 8px 15px;
+  border: 1px solid #e5e5e5;
+  white-space: nowrap;
 }
 
 .markdown-body {
   font-size: 16px;
+  
+  table {
+    display: table;
+    width: 100%;
+    
+    th, td {
+      white-space: normal;
+    }
+  }
 }
 
 .main-content {
