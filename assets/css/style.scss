@@ -41,35 +41,13 @@ header {
   }
 }
 
-table {
-  width: 100%;
-  display: table;
-  margin-bottom: 20px;
-  border-collapse: collapse;
-  overflow-x: auto;
-}
-
-th, td {
-  padding: 8px 15px;
-  border: 1px solid #e5e5e5;
-  white-space: nowrap;
-}
-
-.markdown-body {
-  font-size: 16px;
-  
+body {
   table {
-    display: table;
-    width: 100%;
     table-layout: fixed;
+    border-collapse: collapse;
     
-    th, td {
-      white-space: normal;
-      overflow-wrap: break-word;
-    }
-    
-    th:nth-child(1),
-    td:nth-child(1) {
+    th:first-child,
+    td:first-child {
       width: 70%;
     }
     
@@ -81,6 +59,13 @@ th, td {
     th:nth-child(3),
     td:nth-child(3) {
       width: 15%;
+    }
+    
+    th, td {
+      padding: 6px 13px;
+      border: 1px solid #dfe2e5;
+      overflow-wrap: break-word;
+      white-space: normal;
     }
   }
 }
