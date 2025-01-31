@@ -8,7 +8,7 @@
 
 ## Papers
 
-{: .paper-list}
+{: .paper-list columns=3 column_widths=70,15,15}
 | **Paper** | **Date** | **Comment** |
 | --- | --- | --- |
 | **[CrowdSplat: Exploring Gaussian Splatting For Crowd Rendering](http://arxiv.org/abs/2501.17792v1)**<details>We present CrowdSplat, a novel approach that leverages 3D Gaussian Splatting for real-time, high-quality crowd rendering. Our method utilizes 3D Gaussian functions to represent animated human characters in diverse poses and outfits, which are extracted from monocular videos. We integrate Level of Detail (LoD) rendering to optimize computational efficiency and quality. The CrowdSplat framework consists of two stages: (1) avatar reconstruction and (2) crowd synthesis. The framework is also optimized for GPU memory usage to enhance scalability. Quantitative and qualitative evaluations show that CrowdSplat achieves good levels of rendering quality, memory efficiency, and computational performance. Through these experiments, we demonstrate that CrowdSplat is a viable solution for dynamic, realistic crowd simulation in real-time applications.</details> | 2025-01-29 | <details>4 pages, 4 figures</details> |

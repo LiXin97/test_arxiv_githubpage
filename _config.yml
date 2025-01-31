@@ -10,11 +10,3 @@ description: An intelligent system that monitors and curates cutting-edge AI res
 # Theme customization
 github:
   is_project_page: false
-
-# Paper List table (3 columns)
-paper_list:
-  columns: 3
-  column_widths:
-    - 70
-    - 15
-    - 15
