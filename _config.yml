@@ -10,3 +10,21 @@ description: An intelligent system that monitors and curates cutting-edge AI res
 # Theme customization
 github:
   is_project_page: false
+
+# CSS customization
+style: |
+  .paper-list {
+    width: 100%;
+  }
+  .paper-list th:first-child,
+  .paper-list td:first-child {
+    width: 70%;  /* Paper title & abstract column */
+  }
+  .paper-list th:nth-child(2),
+  .paper-list td:nth-child(2) {
+    width: 15%;  /* Date column */
+  }
+  .paper-list th:nth-child(3),
+  .paper-list td:nth-child(3) {
+    width: 15%;  /* Comment column */
+  }
